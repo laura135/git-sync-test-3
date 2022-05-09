@@ -15,5 +15,11 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
+      environments:
+      - identifier: git_sync_comparison_env
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   projectIdentifier: laura_git_sync_comparison
   orgIdentifier: default
