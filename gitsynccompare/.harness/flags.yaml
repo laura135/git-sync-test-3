@@ -1,0 +1,19 @@
+featureFlags:
+  flags:
+  - flag:
+      name: bool flag 1
+      identifier: bool_flag_1
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+  projectIdentifier: laura_git_sync_comparison
+  orgIdentifier: default
